@@ -1,0 +1,168 @@
+2024-11-26 01:24:59,005 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 101, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 109, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:26:16,156 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:27:26,954 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:28:04,779 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:30:30,068 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:31:59,981 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:32:27,525 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:37:56,741 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:39:19,111 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:42:45,495 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:43:37,472 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 01:54:04,366 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:02:10,879 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:02:33,567 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:04:49,827 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:05:36,898 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:05:56,104 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:10:59,742 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:11:08,394 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:12:31,334 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 02:13:24,250 - ERROR - Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 102, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 110, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range

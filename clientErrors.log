@@ -1,0 +1,848 @@
+2024-10-28 16:18:08,952 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 40, in startClient
+    self.clientSock.connect(server_address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-01 00:17:17,280 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 108, in start
+    self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+  File "C:\msys64\ucrt64\lib\python3.11\tkinter\__init__.py", line 2272, in wm_protocol
+    return self.tk.call(
+           ^^^^^^^^^^^^^
+_tkinter.TclError: can't invoke "wm" command: application has been destroyed
+2024-11-23 13:57:01,276 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 106, in start
+    clientserver.ClientServer.startClient()
+TypeError: ClientServer.startClient() missing 1 required positional argument: 'self'
+2024-11-23 13:57:57,155 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 52, in startServer
+    self.serverSocket.bind(server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+2024-11-23 14:04:06,165 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 52, in startServer
+    self.serverSocket.bind(server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+2024-11-23 14:04:25,557 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 106, in start
+    clientserver.ClientServer.startClient()
+TypeError: ClientServer.startClient() missing 1 required positional argument: 'self'
+2024-11-23 14:08:26,751 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 106, in start
+    clientserver.ClientServer.startClient()
+TypeError: ClientServer.startClient() missing 1 required positional argument: 'self'
+2024-11-23 19:02:35,093 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 52, in startServer
+    self.serverSocket.bind(server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+2024-11-23 19:04:45,111 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 52, in startServer
+    self.serverSocket.bind(server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+2024-11-23 19:05:04,396 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 52, in startServer
+    self.serverSocket.bind(server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+2024-11-23 19:24:32,661 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 41, in startClient
+    self.clientSock.connect(server_address)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-23 19:25:45,996 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 41, in startClient
+    self.clientSock.connect(server_address)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-23 19:27:39,117 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\serverTest.py", line 53, in startServer
+    self.serverSocket.bind(server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+2024-11-23 19:44:15,764 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 42, in startClient
+    self.clientSock.connect(server_address)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-23 19:52:26,069 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostserver.py", line 86, in handleClient
+    serialised_data =  pickle.loads(data)
+                       ^^^^^^^^^^^^^^^^^^
+_pickle.UnpicklingError: unpickling stack underflow
+2024-11-23 19:57:31,665 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 42, in startClient
+    self.clientSock.connect(server_address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-23 19:57:50,649 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 42, in startClient
+    self.clientSock.connect(server_address)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-24 15:57:40,795 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 106, in start
+    clientserver.ClientServer.startClient()
+TypeError: ClientServer.startClient() missing 1 required positional argument: 'self'
+2024-11-24 15:59:23,644 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 106, in start
+    self.clientserver.ClientServer.startClient()
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'App' object has no attribute 'clientserver'
+2024-11-24 16:00:04,189 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 109, in start
+    self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+  File "C:\msys64\ucrt64\lib\python3.11\tkinter\__init__.py", line 2272, in wm_protocol
+    return self.tk.call(
+           ^^^^^^^^^^^^^
+_tkinter.TclError: can't invoke "wm" command: application has been destroyed
+2024-11-24 16:46:02,085 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\GUI.py", line 174, in start
+    self.root.mainloop()
+    ^^^^^^^^^
+AttributeError: 'App' object has no attribute 'root'
+2024-11-25 00:50:20,987 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 54, in dbRegister
+    self.conn.commit()
+    ^^^^^^^^^
+AttributeError: 'databaseHandler' object has no attribute 'conn'
+2024-11-25 02:48:09,781 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in login
+    sql_command = f'SELECT * FROM user WHERE userName = ("{args[0]}", {args[1]});'
+                                                                       ~~~~^^^
+IndexError: tuple index out of range
+2024-11-25 02:56:41,761 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 73, in login
+    print(splitstring[1])
+          ~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-11-25 02:58:22,917 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 71, in login
+    ndj = ','.join(map(str, splitstring))
+                            ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'splitstring' where it is not associated with a value
+2024-11-25 02:58:39,895 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in login
+    print(splitstring[1])
+          ~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-11-25 02:58:51,140 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in login
+    print(splitstring[1])
+          ~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-11-25 02:59:16,037 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in login
+    print(splitstring[1])
+          ~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-11-25 03:00:06,244 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in login
+    print(splitstring[1])
+          ~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-11-25 03:07:23,110 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 79, in login
+    self.cursor.execute('SELECT * FROM user WHERE userName = (?) AND password = (?);', f"{splitstring[0]}", f"{splitstring[1]}")
+TypeError: execute expected at most 2 arguments, got 3
+2024-11-25 12:29:35,325 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 91, in login
+    userInfo.append(userInfo)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'append'
+2024-11-25 12:35:34,467 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 72, in login
+    lines = args[0].split('\a')
+            ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2024-11-25 15:44:41,225 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 102, in login
+    newjsonData = json.dumps(f)
+                  ^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+2024-11-25 15:45:02,987 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 102, in login
+    newjsonData = json.dumps(f)
+                  ^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+2024-11-25 15:45:18,857 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 102, in login
+    newjsonData = json.dumps(f)
+                  ^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+2024-11-25 15:47:01,308 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 101, in login
+    with open('logiToken.json', 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'logiToken.json'
+2024-11-25 15:47:30,127 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['username'][0])
+          ~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:47:53,331 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData[0]['username'])
+          ~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'username'
+2024-11-25 15:48:03,770 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData[0][0])
+          ~~~~~~~~~~~~~~^^^
+KeyError: 0
+2024-11-25 15:49:47,519 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['username'][0])
+          ~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:49:56,461 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['username'])
+          ~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:51:21,562 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['username'])
+          ~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:51:54,280 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData["user"])
+          ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:52:16,376 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData.user)
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'user'
+2024-11-25 15:52:28,463 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData.username)
+          ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'username'
+2024-11-25 15:52:38,212 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData.userName)
+          ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'userName'
+2024-11-25 15:52:59,304 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData[0].userName)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'userName'
+2024-11-25 15:53:34,624 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData[0]['username'][0])
+          ~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:54:25,799 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['userName'])
+          ~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:54:36,077 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['user'])
+          ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:54:54,957 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData["user"])
+          ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:55:30,877 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData[0]['userName'][0])
+          ~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:55:53,719 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    print(newJsonData['user'][0]['userName'])
+          ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:56:09,298 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    username = newJsonData['user'][0]['userName']
+               ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:56:30,167 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    username = newJsonData['user'][0]['userName']
+               ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:56:43,252 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    username = newJsonData['user'][0]['userName']
+               ~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-25 15:57:06,676 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    username = newJsonData[0].userName
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'userName'
+2024-11-25 15:57:58,234 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    username = newJsonData[0].userName
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'userName'
+2024-11-25 16:04:09,480 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 103, in login
+    username = newJsonData[0].userName
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'userName'
+2024-11-25 16:12:48,249 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 102, in login
+    self.username = jsonData[1]['userName']
+                    ~~~~~~~~^^^
+IndexError: list index out of range
+2024-11-25 16:13:22,713 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 102, in login
+    self.username = jsonData[0]['login']
+                    ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'login'
+2024-11-25 16:21:32,916 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 100, in login
+    parsed = linetoparse.split('\t')
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'split'
+2024-11-25 16:26:34,672 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 101, in login
+    print*(parsed[1])
+    ~~~~~^^~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'builtin_function_or_method'
+2024-11-25 16:26:47,931 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 101, in login
+    print*(parsed[0])
+    ~~~~~^^~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'builtin_function_or_method'
+2024-11-25 16:26:57,590 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 101, in login
+    print*(parsed)
+    ~~~~~^^~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'builtin_function_or_method'
+2024-11-26 01:23:53,278 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 77, in login
+    splitstring = args[1].split('\t')
+                  ~~~~^^^
+IndexError: tuple index out of range
+2024-11-26 02:01:01,404 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 52, in startClient
+    self.sendToServer(user)
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 74, in sendToServer
+    self.clientSock.sendall(args.encode('ascii'))
+                            ^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'encode'
+2024-11-26 02:02:10,781 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 52, in startClient
+    self.sendToServer(user)
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 74, in sendToServer
+    self.clientSock.sendall(args.encode('ascii'))
+                            ^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'encode'
+2024-11-26 02:02:33,470 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 52, in startClient
+    self.sendToServer(user)
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 74, in sendToServer
+    self.clientSock.sendall(args.encode('ascii'))
+                            ^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'encode'
+2024-11-26 02:04:49,021 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 52, in startClient
+    self.sendToServer(user)
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 74, in sendToServer
+    self.clientSock.sendall(args.encode('ascii'))
+                            ^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'encode'
+2024-11-26 02:05:36,698 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 52, in startClient
+    self.sendToServer(user)
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 74, in sendToServer
+    self.clientSock.sendall(args)
+TypeError: a bytes-like object is required, not 'tuple'
+2024-11-26 02:05:56,002 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 52, in startClient
+    self.sendToServer(user)
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 74, in sendToServer
+    self.clientSock.sendall(args)
+TypeError: a bytes-like object is required, not 'str'
+2024-11-26 02:21:55,331 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 43, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:24:00,680 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 43, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:24:07,929 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 43, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:24:15,896 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 43, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:24:18,642 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 43, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:25:22,145 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 44, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:25:25,472 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 44, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:26:56,813 - ERROR - 
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\clientserver.py", line 44, in startClient
+    self.clientSock.connect(server_address)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClientServer' object has no attribute 'clientSock'
+2024-11-26 02:35:21,664 - ERROR - Attempted to send data without a valid clientSock.
+2024-11-26 04:11:19,452 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 106, in parse
+    lines = args[0].split('\a')
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+2024-11-26 04:12:57,668 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 106, in parse
+    lines = args[0].split('\a')
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+2024-11-26 04:13:19,613 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 106, in parse
+    lines = args[0].split('\a')
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+2024-11-26 04:13:55,834 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 106, in parse
+    lines = args[0].split('\a')
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+2024-11-26 04:17:46,265 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 108, in parse
+    self.handleReq(lines[0])
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 118, in handleReq
+    print(f"Method: {args[0]}")
+                     ~~~~^^^
+IndexError: string index out of range
+2024-11-26 04:21:38,318 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\hostServer.py", line 107, in parse
+    print(args['method'])
+          ~~~~^^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+2024-11-26 05:00:09,953 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 77, in login
+    splitstring = args[1].split('\t')
+                  ~~~~^^^
+IndexError: tuple index out of range
+2024-11-26 15:04:08,787 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 50, in dbRegister
+    parsing = json.loads(args)
+              ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+2024-11-26 15:05:40,484 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 50, in dbRegister
+    parsing = json.loads(args)
+              ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 3 column 26 (char 61)
+2024-11-26 16:14:01,802 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 78, in login
+    userInfo = self.JsonParser(args)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 68, in JsonParser
+    jsonData = json.loads(args)
+               ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not tuple
+2024-11-26 16:16:00,901 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 78, in login
+    jsonData = json.loads(args)
+               ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not tuple
+2024-11-26 16:19:02,139 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 79, in login
+    jsonData = json.load(preparse)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^
+AttributeError: 'str' object has no attribute 'read'
+2024-11-26 16:19:22,325 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 81, in login
+    userInfo = f'"{jsonData["username"]}", "{jsonData["password"]}"'
+                   ~~~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-11-26 16:21:20,108 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 78, in login
+    jsonData = json.loads(args)
+               ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not tuple
+2024-11-26 16:23:04,052 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 79, in login
+    print(args['username'])
+          ~~~~^^^^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+2024-11-26 16:30:55,066 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 90, in login
+    self.cursor.execute('SELECT * FROM user WHERE userName = (?) AND password = (?);', splitstring)
+                                                                                       ^^^^^^^^^^^
+NameError: name 'splitstring' is not defined
+2024-11-30 03:25:45,636 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 50, in dbRegister
+    userInfo = self.JsonParser(args)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in JsonParser
+    jsonData = json.loads(args)
+               ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+2024-11-30 03:26:58,777 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 50, in dbRegister
+    userInfo = self.JsonParser(args)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in JsonParser
+    jsonData = json.loads(args)
+               ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+2024-11-30 03:27:16,719 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 50, in dbRegister
+    userInfo = self.JsonParser(args)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 75, in JsonParser
+    jsonData = json.loads(args)
+               ^^^^^^^^^^^^^^^^
+  File "C:\msys64\ucrt64\lib\python3.11\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+2024-11-30 03:28:21,029 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo['username'])
+                                 ~~~~~~~~^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-11-30 03:28:51,429 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    print(userInfo["username"])
+          ~~~~~~~~^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2024-11-30 03:30:19,998 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo['username'])
+                                 ~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-30 03:30:35,411 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 71, in hashUserName
+    hashedUsername = hashedUsername()
+                     ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'hashedUsername' where it is not associated with a value
+2024-11-30 03:31:50,110 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo['username'])
+                                 ~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-30 03:34:12,959 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 71, in hashUserName
+    hashedUsername = hashlib.sha224(username)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Strings must be encoded before hashing
+2024-11-30 03:35:36,304 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 72, in hashUserName
+    hashedUsername = hashobj.update(username)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Strings must be encoded before hashing
+2024-11-30 03:43:32,985 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 73, in hashUserName
+    hexV = int(hashobj.hexdigest(), 12)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 12: '8d33ef8b5a0558ee28f23514b2155961316243b436e0272f5c88a4b3'
+2024-11-30 03:43:43,232 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 73, in hashUserName
+    hexV = int(hashobj.hexdigest(), 8)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 8: '8d33ef8b5a0558ee28f23514b2155961316243b436e0272f5c88a4b3'
+2024-11-30 03:43:50,818 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 51, in dbRegister
+    userName = self.hashUserName(userInfo[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 73, in hashUserName
+    hexV = int(hashobj.hexdigest(), 10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '8d33ef8b5a0558ee28f23514b2155961316243b436e0272f5c88a4b3'
+2024-11-30 04:04:16,086 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 52, in dbRegister
+    print(userInfo['username'])
+          ~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-30 04:05:27,914 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 53, in dbRegister
+    print(userInfo['username'])
+          ~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-30 04:06:03,755 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 53, in dbRegister
+    print(userInfo['username'])
+          ~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-30 04:12:15,296 - ERROR - 
+Error
+Traceback (most recent call last):
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 52, in dbRegister
+    UID = self.hashUserName(jsonData["username"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tashriq\vs_stuff\python\loginPrac\dbHandler.py", line 73, in hashUserName
+    hashobj = hashlib.sha256(username)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Strings must be encoded before hashing
